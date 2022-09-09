@@ -1,6 +1,6 @@
 describe('function tests', () => {
   it('should set a default value', () => {
-    const twoFer = (name = 'you') => {
+    const twoFer = (name: string = 'you') => {
       return `One for ${name}, one for me.`
     }
 
